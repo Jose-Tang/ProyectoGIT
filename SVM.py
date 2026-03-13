@@ -1,0 +1,3 @@
+from sklearn.svm import SVC
+svm_model = SVC(kernel='linear')
+svm_model.fit(X_train, y_train)
